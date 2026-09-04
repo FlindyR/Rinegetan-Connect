@@ -34,7 +34,7 @@ export const EntityLockup = ({ dark = false, compact = false }) => (
                     dark ? "text-white" : "text-navy"
                 )}
             >
-                {CHURCH.name}
+                {CHURCH.entity}
             </span>
         </span>
     </Link>

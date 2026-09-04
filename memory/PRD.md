@@ -27,6 +27,7 @@ Build Phase 1 of a production-quality digital platform for GMAHK Rinegetan ("Rin
 - Sabbath marquee, Sabbath section (Sekolah Sabat 08.45 WITA / Ibadah Sabat), welcome, events (6, category filter), 9 departments, media previews, Pelayanan Digital Phase-3 preview cards, visit CTA
 - Contact form with validation + toast (FRONTEND-ONLY, not persisted)
 - Accessibility: skip link, aria labels/expanded/pressed, role=alert errors, alt text, focus-visible rings
+- Correction pass (2026-09-04): header lockup line 2 = "Jemaat Rinegetan" (denomination line stays primary); "SABIT" typo eliminated (0 occurrences, global audit); footer "Jemaat Jemaat" duplication fixed; mobile horizontal overflow at 320–414px eliminated (min-w-0 on grid items / Reveal); production build passing
 
 ## Backlog
 - P0 (Phase 2): Rinegetan Connect member accounts, CMS-backed events/media via FastAPI + MongoDB, persist contact form

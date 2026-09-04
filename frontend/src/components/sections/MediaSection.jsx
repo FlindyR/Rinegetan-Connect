@@ -78,7 +78,7 @@ export const MediaSection = () => {
                         </article>
                     </Reveal>
 
-                    <div className="grid gap-4 sm:grid-cols-2 lg:col-span-3 lg:grid-cols-1">
+                    <div className="grid min-w-0 gap-4 sm:grid-cols-2 lg:col-span-3 lg:grid-cols-1">
                         {rest.map((item, i) => (
                             <Reveal key={item.id} delay={0.08 * i}>
                                 <article

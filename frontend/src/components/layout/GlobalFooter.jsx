@@ -30,7 +30,7 @@ export const GlobalFooter = () => (
             <div className="lg:col-span-2">
                 <EntityLockup dark />
                 <p className="mt-6 max-w-xs text-sm leading-relaxed text-white/60">
-                    Jemaat {CHURCH.entity} — bagian dari {CHURCH.fullName} sedunia.{" "}
+                    {CHURCH.entity} — bagian dari {CHURCH.fullName} sedunia.{" "}
                     {CHURCH.tagline}.
                 </p>
                 <div className="mt-6 flex gap-2">
